@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin: 19px;
+    padding: 25px;
+    display: inline;
+}
+nav{
+    background-color: black;
+    color: pink;
+}
+.d1{
+    display: inline-block;
+    height: 94vh;
+    width: 50%;
+    background-color: rgb(241, 71, 241);
+}
+
+.d2{
+    display: inline-block;
+    height: 94vh;
+    width: 50%;
+    background-color: rgb(215, 123, 57);
+}
+
+footer{
+    background-color: black;
+    color: pink;
+    padding: 4px;
+    text-align: center;
+}

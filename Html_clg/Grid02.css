@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.d{
+    padding: 10px;
+    margin: 3px;
+    background-color: lightcoral;
+    border-radius: 10px;
+}
+
+.nav{
+    grid-row: 1/5;
+}
+
+.header{
+    grid-column: 2/5;
+}
+
+.article{
+    grid-row: 2/4;
+    grid-column: 2/4;
+}
+
+.footer{
+    grid-column: 2/5;
+}
+
+.ads{
+    grid-row: 2/4;
+}
